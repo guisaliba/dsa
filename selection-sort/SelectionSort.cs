@@ -6,11 +6,12 @@ namespace SelectionSort
   {
     static void Main(string[] args)
     {
+      // Testing the algorithm
       int[] array = { 5, 3, 6, 2, 10 };
       SelectionSort(array);
       foreach (int item in array)
       {
-        Console.WriteLine(item);
+        Console.WriteLine(item); // 2, 3, 5, 6, 10
       }
     }
 
