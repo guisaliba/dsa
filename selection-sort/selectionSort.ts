@@ -19,7 +19,7 @@ function selectionSortTS(A: number[]): number[] {
 // Testing the algorithm
 const arrayTS = [8, 2, 12, 6, 45, 3, 1, 0];
 
-selectionSort(arrayTS);
+selectionSortTS(arrayTS);
 
 for (let i of arrayTS) {
   console.log(i); // 0, 1, 2, 3, 6, 8, 12, 45
