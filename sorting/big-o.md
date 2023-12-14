@@ -1,7 +1,7 @@
 <samp>
-# Big O is a way to categorize your algorithm on time and memory complexity based on the input. It tells how your algorithm reacts to different given inputs.
+## Big O is a way to categorize your algorithm on time and memory complexity based on the input. It tells how your algorithm reacts to different given inputs.
 
-## Growth is with respect to the input
+### Growth is with respect to the input
 
 As your input grows, how fast does computation or memory grow? The growth of these two are **directly** related to the input, if the input grows, they will grow as well.
 
@@ -50,7 +50,7 @@ Ok so what if the capital E is at the middle of the input or even better, at the
 
 Why? Because you **drop constants**. Speculating that kind of scenario with a "what if?" question means that you're no longer thinking about the worst case scenario, and that breaks the set of rules that determines the Big O for an algorithm. **Always consider worst case.** Worst case is the way you measure how your algorithm reacts to the input's growth.
 
-## Common complexities
+### Common complexities
 
 - **O(1)**, **constant time**. No matter how big the input is, it does the same amount of operations every single time. That's (almost) perfection for an algorithm's running time.
 - **O(log n)**, it grows linear. In other words, it is pretty fast and that's a based 2 logarithm btw.
