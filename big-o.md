@@ -1,4 +1,6 @@
-# Big O
+<samp>
+  
+## Big O
 
 | Big O Notation | Type        | Computations for 10 elements | Computations for 100 elements | Computations for 1000 elements |
 | -------------- | ----------- | ---------------------------- | ----------------------------- | ------------------------------ |
@@ -20,3 +22,5 @@
 | **Linked List**        |   N    |   N    |     1     |    N     |
 | **Hash Table**         |   1    |   N    |     N     |    N     |
 | **Binary Search Tree** |   N    |   N    |     N     |    N     |
+
+</samp>
