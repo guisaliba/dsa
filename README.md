@@ -1,6 +1,6 @@
 <samp>
   <h1 align="center">
-    Algorithms & Data Structures
+    Data Structures & Algorithms
   </h1>
 
 ## Description
