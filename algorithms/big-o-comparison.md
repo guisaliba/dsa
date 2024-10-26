@@ -1,4 +1,4 @@
-<samp>
+
   
 ## Big O
 
@@ -23,4 +23,4 @@
 | **Hash Table**         |   1    |   N    |     N     |    N     |
 | **Binary Search Tree** |   N    |   N    |     N     |    N     |
 
-</samp>
+

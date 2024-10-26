@@ -1,8 +1,8 @@
-<samp>
-  
-## Big O is a way to categorize your algorithm on time and memory complexity based on the input. It is a way to tell how your algorithm reacts to different given inputs.
+# Big O is a way to categorize your algorithm on time and memory complexity based on the input
 
-### Growth is with respect to the input
+In other words, it is a way to tell how your algorithm reacts to different given inputs.
+
+## Growth is with respect to the input
 
 As your input grows, how fast does computation or memory grow? The growth of these two are **directly** related to the input. If the input grows, they will too. Take a look at this example:
 
@@ -78,4 +78,3 @@ Short story short, these are the three main concepts to keep in mind when talkin
 1. Growth is related to input;
 2. Constants are dropped;
 3. Worst case scenario is ALWAYS the way to measure time and space complexity for an algorithm.
-   </samp>

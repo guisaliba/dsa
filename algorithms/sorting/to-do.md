@@ -1,4 +1,3 @@
-<samp>
 ## To study and implement:
 
 - shellsort: conceito, implementaçao, eficiencia
@@ -16,4 +15,4 @@
   https://www.youtube.com/watch?v=GUDLRan2DWM
 - heap sort: conceito, implementaçao, eficiencia
   https://www.youtube.com/watch?v=Q_eia3jC9Ts
-  </samp>
+  

@@ -1,5 +1,6 @@
-<samp>
-Keeping data in sorted order is a daily task we perform without even knowing. Let's say you have a lot of books in your shelf and you would like to organize them by their numbers of pages in a crescent way. You could use an algorithm to do that.
+# Keeping data in sorted order is a daily task we perform without even knowing
+
+Let's say you have a lot of books in your shelf and you would like to organize them by their numbers of pages in a crescent way. You could use an algorithm to do that.
 
 Formally saying, **sorting is arranging the elements in a list or collection in increasing or decreasing order of some property**. In the example above, the books (elements) were sorted in the shelf (collection) in increasing order by the number of pages (property).
 To sort a list or a collection, **all of its elements should be of the same data type**, usually we sort lists or collections of integers.
@@ -28,4 +29,4 @@ There are many ways to classify a sorting algorithms: **1. Time complexity 2. Sp
 3. A stable sorting algorithm guarantees that in the case of equality of key, it preserves the relative (original) order of elements.
 4. When all records that need to be sorted are in main memory or RAM, it is an internal sort. When records are on disk/tapes it is an external sort.
 5. Some sorting algorithms like Quick or Merge Sort are recursive, while others like Insertion and Selection sort are not recursive.
-   </samp>
+   

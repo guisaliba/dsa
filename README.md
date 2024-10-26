@@ -21,7 +21,6 @@ This project was built using:
 You are free to use this repository as you wish. If you want to run the code, you can clone the repository and run each file individually. To clone the repository, run the following command:
 
 ```
-git clone https://github.com/guisaliba/aed.git
+git clone https://github.com/guisaliba/dsa.git
 ```
-
 </samp>

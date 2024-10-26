@@ -10,6 +10,7 @@ function bubbleSort(arr: number[]): void {
 
         arr[j] = arr[j + 1];
         arr[j + 1] = temp;
+
         flag = false;
       }
     }
@@ -23,5 +24,7 @@ function bubbleSort(arr: number[]): void {
 const primes = [23, 17, 2, 5, 3, 7, 13, 11, 19];
 
 console.log(`Before sorting: ${primes}`); // [23,17,2,5,3,7,13,11,19]
+
 bubbleSort(primes);
+
 console.log(`After sorting: ${primes}`); // [2,3,5,7,11,13,17,19,23]

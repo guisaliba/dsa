@@ -1,4 +1,4 @@
-<samp>
+
 A selection sort algorithm takes an array of size "n" and iterates through it. For each iteration, it finds the smallest element in the array and swaps it with the element at the current index. The time complexity of this algorithm is O(n^2) and the space complexity is O(1).
 <br>
 We can definitely see here that there will be two loops in this algorithm.
@@ -31,4 +31,4 @@ for (let i = 0; i < n - 1; i++) {
 
 ```
 
-</samp>
+
