@@ -1,8 +1,6 @@
 # What is Big O?
 
-## Big O is a way to categorize your algorithm on time and memory complexity based on the input
-
-In other words, it is a way to tell how your algorithm reacts to different given inputs.
+**Big O is a way to categorize your algorithm on time and memory complexity based on the input.** In other words, it is a way to tell how your algorithm reacts to different given inputs.
 
 ## Growth is with respect to the input
 
