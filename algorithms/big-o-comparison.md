@@ -1,6 +1,6 @@
+# Big O Comparison
 
-  
-## Big O
+## Time Complexities
 
 | Big O Notation | Type        | Computations for 10 elements | Computations for 100 elements | Computations for 1000 elements |
 | -------------- | ----------- | ---------------------------- | ----------------------------- | ------------------------------ |
@@ -12,7 +12,7 @@
 | **O(2^N)**     | Exponential | 1024                         | 1.26e+29                      | 1.07e+301                      |
 | **O(N!)**      | Factorial   | 3628800                      | 9.3e+157                      | 4.02e+2567                     |
 
-### Data Structure Operations Complexity
+## Data Structure Operations Complexity
 
 | Data Structure         | Access | Search | Insertion | Deletion |
 | ---------------------- | :----: | :----: | :-------: | :------: |
@@ -22,5 +22,3 @@
 | **Linked List**        |   N    |   N    |     1     |    N     |
 | **Hash Table**         |   1    |   N    |     N     |    N     |
 | **Binary Search Tree** |   N    |   N    |     N     |    N     |
-
-
