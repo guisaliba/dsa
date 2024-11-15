@@ -1,19 +1,13 @@
 using System;
 using System.Collections.Generic;
 
-public class Graph
+public class Graph(List<Vertex> vertices, List<Edge> edges)
 {
-    private readonly List<Vertex> vertices;
-    private readonly List<Edge> edges;
+    private readonly List<Vertex> _vertices = vertices ?? new List<Vertex>();
+    private readonly List<Edge> _edges = edges ?? new List<Edge>();
 
-    public Graph()
-    {
-        vertices = new List<Vertex>();
-        edges = new List<Edge>();
-    }
-
-    public IReadOnlyList<Vertex> Vertices => vertices.AsReadOnly();
-    public IReadOnlyList<Edge> Edges => edges.AsReadOnly();
+    public IReadOnlyList<Vertex> Vertices => _vertices.AsReadOnly();
+    public IReadOnlyList<Edge> Edges => _edges.AsReadOnly();
 
     public class Vertex
     {
@@ -55,32 +49,32 @@ public class Graph
 
     public Vertex GetVertex(int index)
     {
-        return vertices.Find(v => v.Index == index);
+        return _vertices.Find(v => v.Index == index);
     }
 
     public void AddVertex(Vertex vertex)
     {
-        vertices.Add(vertex);
+        _vertices.Add(vertex);
     }
 
     public void RemoveVertex(Vertex vertex)
     {
-        vertices.RemoveAll(v => v.Index == vertex.Index);
+        _vertices.RemoveAll(v => v.Index == vertex.Index);
     }
 
     public Edge GetEdge(int index)
     {
-        return edges.Find(e => e.Index == index);
+        return _edges.Find(e => e.Index == index);
     }
 
     public void AddEdge(Edge edge)
     {
-        edges.Add(edge);
+        _edges.Add(edge);
     }
 
     public void RemoveEdge(Edge edge)
     {
-        edges.RemoveAll(e => e.Index == edge.Index);
+        _edges.RemoveAll(e => e.Index == edge.Index);
     }
 
     public Edge ChangeEdge(Edge edge)
@@ -97,12 +91,12 @@ public class Graph
 
     public void Print()
     {
-        foreach (var vertex in vertices)
+        foreach (var vertex in _vertices)
         {
             Console.WriteLine(vertex);
         }
 
-        foreach (var edge in edges)
+        foreach (var edge in _edges)
         {
             Console.WriteLine(edge);
         }
