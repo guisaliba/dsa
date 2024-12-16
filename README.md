@@ -5,7 +5,7 @@
 
 ## Description
 
-Research and studies on DSA. 
+Research and studies on data structures and algorithms. 
 
 ## Technologies
 
