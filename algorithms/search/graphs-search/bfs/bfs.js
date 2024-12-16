@@ -52,7 +52,6 @@ function reconstruct(start, end, prev) {
   path.reverse();
 
   if (path[0] === start) {
-    console.log(`Found path: ${path}`);
     return path;
   }
 
