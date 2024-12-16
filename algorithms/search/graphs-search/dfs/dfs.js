@@ -15,7 +15,6 @@ function dfs(at) {
     return;
   }
 
-  console.log(`Visiting node ${at}`);
   visited[at] = true;
 
   let neighbours = graph[at];
