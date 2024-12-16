@@ -34,7 +34,7 @@ public class Program
     {
       dist[i] = int.MaxValue; // Infinity
       prev[i] = -1;
-      Console.WriteLine($"Inicializando a distância do vértice {i} como Infinito e seu predecessor como nulo.");
+
     }
 
     dist[root.Id] = 0;
@@ -49,7 +49,7 @@ public class Program
         if (!visited[v] && dist[v] < minDist)
         {
           minDist = dist[v];
-          Console.WriteLine($"Atualizando a menor distância do vértice {v} para {minDist}.");
+
           u = v;
         }
       }
@@ -58,7 +58,7 @@ public class Program
         break;
 
       visited[u] = true;
-      Console.WriteLine($"Marcando o vértice {u} como visitado.");
+
 
       if (graph._edges != null)
       {
@@ -69,9 +69,9 @@ public class Program
           if (edge != null && dist[u] != int.MaxValue && dist[v] > dist[u] + edge.Weight)
           {
             dist[v] = dist[u] + edge.Weight;
-            Console.WriteLine($"Distância da raíz ao vértice {v} atualizada para {dist[v]}.");
+
             prev[v] = u;
-            Console.WriteLine($"Predecessor do vértice {v} atualizado para {u}.");
+
           }
         }
       }
@@ -85,7 +85,6 @@ public class Program
   {
     int size = 8;
     Vertex[] vertices = new Vertex[size];
-    Console.WriteLine("Populando o grafo com os vértices...");
     for (int i = 0; i < size; i++)
     {
       vertices[i] = new Vertex { Id = i };
@@ -93,7 +92,6 @@ public class Program
 
     Edge[,] edges = new Edge[size, size];
 
-    Console.WriteLine("Populando o grafo com as arestas...");
     edges[0, 1] = new Edge { From = vertices[0], To = vertices[1], Weight = 11 };
     edges[0, 2] = new Edge { From = vertices[0], To = vertices[2], Weight = 18 };
     edges[0, 3] = new Edge { From = vertices[0], To = vertices[3], Weight = 16 };
@@ -129,6 +127,5 @@ public class Program
     Graph graph = new(vertices, edges);
 
     int[] distances = Dijkstra(graph, vertices[0]);
-    Console.WriteLine(string.Format("Distâncias mínimas da raíz aos demais vértices: {0}", string.Join(", ", distances)));
   }
 }
