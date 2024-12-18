@@ -1,8 +1,8 @@
 const graph = [
-  [1, 2], // 0 -> 1 and 0 -> 2
-  [3], // 1 -> 2 and 1 -> 3
-  [3], // 2 -> 3
-  [], // 3 -> null
+  [1, 2],
+  [3],
+  [3],
+  [],
 ];
 
 function kahn(graph) {
@@ -40,8 +40,6 @@ function kahn(graph) {
     // graph is not a DAG
     return;
   }
-
-  console.log(`topological order: ${order}`);
 }
 
 kahn(graph);
