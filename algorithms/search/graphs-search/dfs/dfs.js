@@ -1,16 +1,15 @@
 let startingNode = 0;
-
-const graph = [
-  [1, 2, 3],
-  [0, 4],
-  [0, 3, 4],
-  [2, 4],
-  [1, 2, 3],
-];
-
 let visited = [];
 
 function dfs(at) {
+  const graph = [
+    [1, 2, 3],
+    [0, 4],
+    [0, 3, 4],
+    [2, 4],
+    [1, 2, 3],
+  ];
+
   if (visited[at]) {
     return;
   }
