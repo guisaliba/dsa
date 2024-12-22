@@ -1,8 +1,7 @@
-let startingNode = 0;
+let start = 0;
 let visited = [];
 
-function dfs(at) {
-  const graph = [
+const graph = [
     [1, 2, 3],
     [0, 4],
     [0, 3, 4],
@@ -10,6 +9,7 @@ function dfs(at) {
     [1, 2, 3],
   ];
 
+function dfs(at, graph) {
   if (visited[at]) {
     return;
   }
@@ -24,4 +24,4 @@ function dfs(at) {
   }
 }
 
-dfs(startingNode);
+dfs(start, graph);
