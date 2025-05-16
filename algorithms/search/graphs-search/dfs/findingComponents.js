@@ -33,7 +33,7 @@ function findComponents() {
       dfs(i);
     }
   }
-  return { count, components };
+  return { count, components, componentsNumber: new Set(components).size };
 }
 
 function dfs(at) {
